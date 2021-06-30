@@ -10,7 +10,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -21,6 +22,7 @@
     "react-scripts": "^3.4.4"
   },
   "devDependencies": {
+    "cypress": "^7.6.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5"
   },
