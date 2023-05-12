@@ -2,6 +2,7 @@
   "name": "dates",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://rodrigo-rac2.github.io/appointments-react",
   "engines": {
     "node": "~15.4.0",
     "npm": "~7.0.15"
