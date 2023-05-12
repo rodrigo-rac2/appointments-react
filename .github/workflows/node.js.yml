@@ -91,11 +91,17 @@ jobs:
         node: [14]
 
     steps:
-      - uses: actions/checkout@v2
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
+      - run: node -v
+      
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          node-version: ${{ matrix.node }}
+          
       - name: Build
         run: |
           node -v
