@@ -70,7 +70,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          node: ${{ matrix.node }}
+          node-version: ${{ matrix.node }}
 
       - name: Cypress run
         uses: cypress-io/github-action@v5
@@ -94,7 +94,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: [${{ matrix.node }}]
+          node-version: ${{ matrix.node }}
       - run: node -v
     
       - name: Checkout
