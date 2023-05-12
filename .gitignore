@@ -117,4 +117,5 @@ dist
 
 .DS_Store
 cypress/videos/
- 
+
+build/

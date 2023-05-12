@@ -1,3 +1,5 @@
+[![GitHub CI](https://github.com/rodrigo-rac2/appointments-react-app/actions/workflows/node.js.yml/badge.svg)](https://github.com/rodrigo-rac2/appointments-react-app/actions/workflows/node.js.yml)
+
 # Appointments React App
 
 This project is contains an Appointments Front-End app.
