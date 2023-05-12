@@ -67,4 +67,4 @@ jobs:
     - run: |
         npm ci
         npm start
-        npm run cypress:run
+        npm run cy:run
