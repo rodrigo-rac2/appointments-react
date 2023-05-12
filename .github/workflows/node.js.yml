@@ -71,10 +71,10 @@ jobs:
           node: ${{ matrix.node }}
 
       - name: Cypress run
-        uses: cypress-io/github-action@v3
+        uses: cypress-io/github-action@v5
         with:
           browser: chrome
-          build: npm run build
+          build: npm ci
           start: npm start
           wait-on: "http://localhost:3000"
           tag: node-${{ matrix.node }}
