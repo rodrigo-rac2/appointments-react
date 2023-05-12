@@ -108,8 +108,8 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: 'npm'
       - run: |
-          npm ci
           npm run build --if-present
+          npm install -g serve
       
       - name: Deploy to GH Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
