@@ -98,7 +98,7 @@ jobs:
           node-version: ${{ matrix.node }}
       - name: Build
         run: |
-          run: node -v
+          node -v
           npm ci
           num run build --if-present
       - name: Deploy to GH Pages 🚀
