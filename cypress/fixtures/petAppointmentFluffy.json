@@ -1,0 +1,14 @@
+{
+  "petName": "Fluffy",
+  "ownerName": "Jessica Melendez Pietro",
+  "date": {
+    "month": "05",
+    "day": "05",
+    "year": "2025"
+  },
+  "time": {
+    "hour": "14",
+    "minutes": "35"
+  },
+  "symptoms": "Not eating enough food. Feeling depressed. Depressing me."
+}

@@ -1,0 +1,14 @@
+{
+  "petName": "Honey",
+  "ownerName": "Mauro Tenaglia Hernandez",
+  "date": {
+    "month": 5,
+    "day": 5,
+    "year": 2025
+  },
+  "time": {
+    "hour": 14,
+    "minutes": 35
+  },
+  "symptoms": "No symptoms. Regular check-up."
+}
