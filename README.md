@@ -1,31 +1,21 @@
-# Automation Engineer Test
+# Appointments React App
 
-This project was created to test your automation skills.
+This project is contains an Appointments Front-End app.
 
 ## What you will find in this project
 
  - A React App build using functional components with Hooks.
  - The Components have their corresponding unit tests.
- - The elements in each component use Data-TestId attributes.
-
-## Goals
-
-You have one hour (1H) to complete the following goals:
-
- - Select an automation framework and setup to use with this project.
- - Create an Object Model Page for each component in the project using the data-testid.
- - Create all the E2E tests that you consider necessary in order to cover the functionality of the app.
+ - E2E tests in Cypress for the main appointments user flows.
+ - The elements in each component use Data-TestId attributes, so there are Page Object Models for each element in the project using the data-testid.
+ - GitHub Actions running these tests on push/pull request to the main branch, and on a schedule, twice a day.
 
 ## Setup Project
 
-This project uses NodeJS 14.0.0 or higher versions, you can find the latest version here
+This project uses NodeJS 14.0.0. 
  - https://nodejs.org/en/
 
-To Make a copy of this repository use GIT
- - git clone https://github.com/fullstacklabs/automation-engineer-challenge.git
-
 To install the libraries and dependencies
- - cd automation-engineer-challenge
  - npm install
 
 ## Available Scripts
@@ -42,6 +32,6 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
+Launches Jest, the unit test runner, in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
