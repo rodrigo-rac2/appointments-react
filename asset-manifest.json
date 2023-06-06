@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/appointments-react/static/css/main.451647fe.chunk.css",
+    "main.js": "/appointments-react/static/js/main.72d19881.chunk.js",
+    "main.js.map": "/appointments-react/static/js/main.72d19881.chunk.js.map",
+    "runtime-main.js": "/appointments-react/static/js/runtime-main.159e76d2.js",
+    "runtime-main.js.map": "/appointments-react/static/js/runtime-main.159e76d2.js.map",
+    "static/js/2.49032cef.chunk.js": "/appointments-react/static/js/2.49032cef.chunk.js",
+    "static/js/2.49032cef.chunk.js.map": "/appointments-react/static/js/2.49032cef.chunk.js.map",
+    "index.html": "/appointments-react/index.html",
+    "precache-manifest.3ea257b29a128c9b9698ed19f80a5504.js": "/appointments-react/precache-manifest.3ea257b29a128c9b9698ed19f80a5504.js",
+    "service-worker.js": "/appointments-react/service-worker.js",
+    "static/css/main.451647fe.chunk.css.map": "/appointments-react/static/css/main.451647fe.chunk.css.map",
+    "static/js/2.49032cef.chunk.js.LICENSE.txt": "/appointments-react/static/js/2.49032cef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.159e76d2.js",
+    "static/js/2.49032cef.chunk.js",
+    "static/css/main.451647fe.chunk.css",
+    "static/js/main.72d19881.chunk.js"
+  ]
+}
